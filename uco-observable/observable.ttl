@@ -2075,11 +2075,6 @@ observable:FileFacet
 		] ,
 		[
 			a owl:Restriction ;
-			owl:onProperty observable:fileSystemType ;
-			owl:maxCardinality "1"^^xsd:nonNegativeInteger ;
-		] ,
-		[
-			a owl:Restriction ;
 			owl:onProperty observable:metadataChangeTime ;
 			owl:maxCardinality "1"^^xsd:nonNegativeInteger ;
 		] ,
