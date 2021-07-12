@@ -22,13 +22,19 @@
 # imports: https://unifiedcyberontology.org/ontology/uco/victim
 
 @base <https://unifiedcyberontology.org/ontology/uco/uco> .
-@prefix : <https://unifiedcyberontology.org/ontology/uco/uco#> .
+@prefix action: <https://unifiedcyberontology.org/ontology/uco/action#> .
+@prefix core: <https://unifiedcyberontology.org/ontology/uco/core#> .
+@prefix identity: <https://unifiedcyberontology.org/ontology/uco/identity#> .
+@prefix location: <https://unifiedcyberontology.org/ontology/uco/location#> .
+@prefix marking: <https://unifiedcyberontology.org/ontology/uco/marking#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix pattern: <https://unifiedcyberontology.org/ontology/uco/pattern#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix uco: <https://unifiedcyberontology.org/ontology/uco/uco#> .
+@prefix role: <https://unifiedcyberontology.org/ontology/uco/role#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix types: <https://unifiedcyberontology.org/ontology/uco/types#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
-@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://unifiedcyberontology.org/ontology/uco/uco>
@@ -60,7 +66,7 @@
 	owl:versionInfo "0.6.0" ;
 	.
 
-<https://unifiedcyberontology.org/ontology/uco/core#id>
-	rdfs:range <https://unifiedcyberontology.org/ontology/uco/types#Identifier> ;
+core:id
+	rdfs:range types:Identifier ;
 	.
 
